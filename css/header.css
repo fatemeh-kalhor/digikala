@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    direction: rtl;
+}
+header{
+    width: 100%;
+    height: 170px;
+background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+   z-index: 5;
+
+}
+
+header>div.header{
+    background-image: url('../image/headdigi.jpg');
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+    margin-bottom: 10px;
+   
+    
+}
+header>div.logo{
+    display: inline-block;
+    width: 115px;
+    margin: 5px;
+    height: 44px;
+    line-height: 44px;
+    /* background-color: blue; */
+    position: relative;
+    
+
+}
+header>div.logo>a{
+    width: 100%;
+    height: 100%;
+    line-height: 44px;
+    position: absolute;
+    top: calc(50% - 44px /2);
+    left: 0;
+    margin-top: 5px;
+    
+
+}
+header>div.logo>a>img{
+    position: absolute;
+    top: calc(50% - 44px /2);
+    left: 0;
+    margin-top: 5px;
+}
+
+header>div.search{
+    margin: 5px;
+    /* background-color: brown; */
+    width: 800px;
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    position: relative;
+
+}
+
+header>div.search>form{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 600px;
+        height: 44px;
+        line-height: 44px;
+        border-radius: 10px;
+        background-color: rgb(240, 240, 241);
+        display: inline-block;
+}
+/* header>div.search>form>input[type=search]:focus{
+            width: 800px;
+
+          
+} */
+header>div.search>form>label{
+    display: inline-block;
+}
+
+header>div.search>form>label>span{
+    margin-right: 10px;
+    color: rgb(185, 186, 190);
+}
+
+header>div.search>form>input[type=search]{
+    margin-right: 10px;
+    width: 500px;
+    height: 40px;
+    display: inline-block;
+    font-family:'iran-sans';
+    background-color: rgb(240, 240, 241);
+    font-size: 12px;
+    line-height: 40px;
+    text-transform: capitalize;
+    border: unset;
+    outline: unset;
+}
+header>div.search>form>input[type=search]::placeholder{
+    color: rgb(137, 133, 139);
+}
+
+
+header>div.login{
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    height: 44px;
+    line-height: 44px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 0;
+}
+header>div.login>div.sabad{
+    /* background-color: red; */
+    
+    display: inline-block;
+    width: 60px;
+}
+header>div.login>div.sabad>a{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    font-family:'iran-sans';
+    text-align: center;
+    text-transform: capitalize;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 1px solid rgb(224, 224, 226);
+}
+header>div.login>div.sabad>a>span{
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+header>div.login>div.register{
+    /*background-color: darkgreen;
+    */display: inline-block;
+    width: 150px;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 10px;
+    /*height: 30px;
+    */-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 5px;
+    -webkit-border-radius: 10px;
+}
+header>div.login>div.register>a{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    /* font-weight: bold; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+header>div.login>div.register>a>span{
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
