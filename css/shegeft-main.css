@@ -522,7 +522,7 @@ div.paragraf>p{
       -moz-transition: 500ms;
       -ms-transition: 500ms;
       -o-transition: 500ms;
-      margin: 0;
+      margin: 5px;
 }
 /* div.sefaresh>div.buy-kala{
   position: absolute;
