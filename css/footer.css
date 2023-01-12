@@ -4,10 +4,28 @@
     box-sizing: border-box;
 }
 main{
-    position: static;
+    position: relative;
+    /* top: 10px; */
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* text-align: center; */
+}
+footer{
+    position: relative;
+    top: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+footer>div.footer{
+    position: relative;
+    top: 50px;
+    /* width: 100%; */
 }
 
-div.icondigi>footer>div.footer>nav{
+footer>div.footer>nav{
     width: 100%;
     height: 760px;
     /* background-color: blue; */
@@ -16,7 +34,7 @@ div.icondigi>footer>div.footer>nav{
     
 
 }
-div.icondigi>footer>div.footer>nav>div.first{
+footer>div.footer>nav>div.first{
     display: block;
     position: relative;
     /* background-color: gray; */
@@ -24,7 +42,7 @@ div.icondigi>footer>div.footer>nav>div.first{
     width: 100%;
     margin: 10px;
 }
-div.icondigi>footer>div.footer>nav>div.first>div.digi_farsi{
+footer>div.footer>nav>div.first>div.digi_farsi{
     width: 200px;
     height: 60px;
     display: inline-block;
@@ -33,29 +51,30 @@ div.icondigi>footer>div.footer>nav>div.first>div.digi_farsi{
     top: 0;
     /* background-color: yellow; */
 }
-div.icondigi>footer>div.footer>nav>div.first>div.digi_farsi>img{
+footer>div.footer>nav>div.first>div.digi_farsi>img{
     padding: 10px;
 }
-div.icondigi>footer>div.footer>nav>div.thierd{
+footer>div.footer>nav>div.thierd{
     width: 100%;
     height: 300px;
     /* background-color: grey; */
     position: relative;
     margin-bottom: 50px;
+    text-align: center;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div{
+footer>div.footer>nav>div.thierd>div{
     /* background-color: yellowgreen; */
     width: 24%;
     margin-top: 20px;
     display: inline-block;
     vertical-align: top;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul{
+footer>div.footer>nav>div.thierd>div>ul{
     width: 100%;
     list-style: none;
 
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li{
+footer>div.footer>nav>div.thierd>div>ul>li{
     width: 100%;
     height: 40px;
     margin-bottom: 5px;
@@ -71,17 +90,17 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li{
 }
 
 
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>ul{
+footer>div.footer>nav>div.thierd>div>ul>ul{
     width: 100%;
     /* height:inherit; */
     list-style: none;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>ul>li{
+footer>div.footer>nav>div.thierd>div>ul>ul>li{
     width: 100%;
     height: 40px;
     margin-bottom: 2px;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>ul>li>a{
+footer>div.footer>nav>div.thierd>div>ul>ul>li>a{
     width: inherit;
     height: inherit;
     display: block;
@@ -95,7 +114,7 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>ul>li>a{
     /* font-weight: bold; */
 }
 
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>a>span{
+footer>div.footer>nav>div.thierd>div>ul>li>a>span{
     display: inline-block;
     width: 50px;
     height: 40px;
@@ -108,7 +127,7 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>a>span{
     /* margin-bottom: 20px; */
 }
 
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>div{
+footer>div.footer>nav>div.thierd>div>ul>li>div{
     width: 50px;
     height: 40px;
     position: relative;
@@ -117,14 +136,14 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>div{
     
 }
 
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>div>a{
+footer>div.footer>nav>div.thierd>div>ul>li>div>a{
     text-align: center;
     font-size: 30px;
     position: absolute;
     top: calc(50% - 40px /2);
     right: 0;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>div>a>svg{
+footer>div.footer>nav>div.thierd>div>ul>li>div>a>svg{
     /* background-color: blue; */
     display: inline-block;
     width: 50px;
@@ -139,7 +158,7 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>div>a>svg{
 }
 
 
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>label[for=email]{
+footer>div.footer>nav>div.thierd>div>ul>li>label[for=email]{
     width: 55px;
     height: 50px;
     line-height: 50px;
@@ -155,7 +174,7 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>label[for=email]{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>input[type=email]{
+footer>div.footer>nav>div.thierd>div>ul>li>input[type=email]{
     padding: 5px;
     width: 250px;
     height: 50px;
@@ -175,7 +194,7 @@ div.icondigi>footer>div.footer>nav>div.thierd>div>ul>li>input[type=email]{
 }
 
 
-div.icondigi>footer>div.footer>nav>div>div.come_back{
+footer>div.footer>nav>div>div.come_back{
     width: 150px;
     height: 60px;
     display: inline-block;
@@ -185,7 +204,7 @@ div.icondigi>footer>div.footer>nav>div>div.come_back{
     /* background-color: red; */
    
 }
-div.icondigi>footer>div.footer>nav>div>div.come_back>a{
+footer>div.footer>nav>div>div.come_back>a{
     align-items: left;
     padding: 10px;
     width: inherit;
@@ -204,7 +223,7 @@ div.icondigi>footer>div.footer>nav>div>div.come_back>a{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-div.icondigi>footer>div.footer>nav>div.second>h3{
+footer>div.footer>nav>div.second>h3{
     align-items: right;
     padding-right: 10px;
     margin-right: 10px;
@@ -217,27 +236,40 @@ div.icondigi>footer>div.footer>nav>div.second>h3{
     /* font-weight: bold;   */
     padding: 10px;
 }
-div.icondigi>footer>div.footer>nav>div{
-    /* background-color: rgb(205, 50, 192); */
+
+footer>div.footer>nav>div.about-kala{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+}
+
+footer>div.footer>nav>div{
+ 
     display: inline-block;
     width: 100%;
     padding: 10px;
 
+
 }
-div.icondigi>footer>div.footer>nav>div>a{
+footer>div.footer>nav>div.about-kala>a{
     display: inline-block;
     font-size: 12px;
     font-family:'iran-sans';
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
+    color: black;
     padding: 10px;
     margin-left:30px;
     margin-right:30px;
+    /* background-color: blue; */
+
 
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp{
+footer>div.footer>nav>div.dlapp{
     display: block;
     position: relative;
     background-color: rgb(60, 75, 109);
@@ -250,20 +282,20 @@ div.icondigi>footer>div.footer>nav>div.dlapp{
     -ms-border-radius:10px ;
     -o-border-radius:10px ;
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>ul{
+footer>div.footer>nav>div.dlapp>ul{
     width: 100%;
     height:inherit;
     list-style: none;
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp>ul>li{
+footer>div.footer>nav>div.dlapp>ul>li{
     /* width: 100%; */
     height: 40px;
     margin-bottom: 2px;
     display: inline-block;
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp>ul>li>h3{
+footer>div.footer>nav>div.dlapp>ul>li>h3{
     align-items: right;
     height: inherit;
     padding-right: 10px;
@@ -277,7 +309,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>ul>li>h3{
     /* font-weight: bold;   */
     padding: 10px;
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.first{
+footer>div.footer>nav>div.dlapp>div.first{
     /* width: 200px; */
     height: 60px;
     padding: 10px;
@@ -286,7 +318,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.first{
     right: 0;
     top: calc(50% - 60px /2);
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div.dlimg{
+footer>div.footer>nav>div.dlapp>div.first>div.dlimg{
     height: 60px;
     width: 40px;
     display: inline-block;
@@ -296,7 +328,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div.dlimg{
     margin-left: 5px;
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div.dlimg>img{
+footer>div.footer>nav>div.dlapp>div.first>div.dlimg>img{
     display: inline-block;
     line-height: 40px;
     position: absolute;   
@@ -305,7 +337,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div.dlimg>img{
 
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div{
+footer>div.footer>nav>div.dlapp>div.first>div{
     height: 60px;
     width: 300px;
     display: inline-block;
@@ -314,7 +346,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div{
 
     /* background-color: blue; */
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div>h3{
+footer>div.footer>nav>div.dlapp>div.first>div>h3{
     align-items: right;
     height: 60px;
     /* padding-right: 10px; */
@@ -333,7 +365,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.first>div>h3{
     top: calc(50% - 60px /2) ;
 }
 
-div.icondigi>footer>div.footer>nav>div.dlapp>div.second{
+footer>div.footer>nav>div.dlapp>div.second{
     width:800px;
     height: 60px;
     display: inline-block;
@@ -342,13 +374,13 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.second{
     left: 0;
     top: calc(50% - 60px /2);
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.second>a>img{
+footer>div.footer>nav>div.dlapp>div.second>a>img{
     width: 142px;
     height: 40px;
     line-height: 60px;
     
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.second>div{
+footer>div.footer>nav>div.dlapp>div.second>div{
     display: inline-block;
     height: 40px;
     margin-right: 5px;
@@ -359,7 +391,7 @@ div.icondigi>footer>div.footer>nav>div.dlapp>div.second>div{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-div.icondigi>footer>div.footer>nav>div.dlapp>div.second>div>a>img{
+footer>div.footer>nav>div.dlapp>div.second>div>a>img{
     width: 40px;
     height: 40px;
     line-height: 40px;

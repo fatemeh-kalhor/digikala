@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'iran-sans';
+    src: url('../font/Iranian\ Sans.ttf');
+}
+
+main>div.shegeftangizha{
+position: relative;
+top:200px;
+width: 100%;
+height: 500px;
+margin-bottom: 50px;
+
+
+}
+div.shegeftangizha>div.header1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: url('../image/freshPattern.svg' ) repeat-x , linear-gradient(rgb(239,59,81), rgb(239,61,83));
+    background-size:auto 170px ;
+    background-blend-mode: lighten, normal;
+    padding-top: 30px;
+/* background-position:center; */
+/* background-attachment: fixed; */
+/* background-size: cover;
+background-repeat: repeat;
+mask: url('../image/freshPattern.svg') repeat cover; */
+
+}
+div.shegeftangizha>div.header1>img{
+    text-align: center;
+    margin: 50px auto;
+}
+div.shegeftangizha>div.header2{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 100px;
+    right: 0;
+    background-color: rgb(239,61,83);
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+div.shegeftangizha>div.header2>ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    position: relative;
+    z-index: 2;
+}
+div.shegeftangizha>div.header2>ul>li{
+    width: auto;
+    display: inline-block;
+}
+
+div.shegeftangizha>div.header2>ul>li>a{
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0 10px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+}
+div.shegeftangizha>div.header2>ul>li>a>ul{
+    width: auto;
+    list-style: none;
+}
+div.shegeftangizha>div.header2>ul>li>a>ul>li>span{
+font-size: 33px;
+}
+
+
+div.shegeftangizha>div.first{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    top: 200px;
+    right: 0;
+    background-color: rgb(239,61,83);
+    text-align: right;
+    /* z-index: -1; */
+    overflow: hidden;
+  
+
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad{
+  width: calc(99% - 200px);
+  height: 390px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  /* bottom: 0; */
+  
+ 
+}
+
+
+
+
+/* .swiper-container {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+  } */
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  width: 100px ;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-color: blueviolet; */
+  }
+
+  /* .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} */
+main>div.shegeftangizha>div.first>div.pishnahad{
+    /* overflow: hidden; */
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(239, 57, 78);
+    z-index: -1;
+    /* margin-bottom: 20px; */
+    
+
+}
+
+
+main>div.shegeftangizha>div.first>div.pishnahad>div.shegeft-pishnahad{
+    width: 200px;
+    height: inherit; 
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+
+  }
+
+
+  main>div.shegeftangizha>div.first>div.pishnahad>div.shegeft-pishnahad>a{
+    /* width: 100px; */
+    height: inherit;
+    display: block;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: bold; 
+ direction: rtl;
+/* 
+ padding-left: 200px; */
+  }
+  main>div.shegeftangizha>div.first>div.pishnahad>div.shegeft-pishnahad>a>img{
+ text-align: center;
+  width: 145px;
+  height: 145px;
+  margin-right: 30px;
+  
+  }
+  main>div.shegeftangizha>div.first>div.pishnahad>div.shegeft-pishnahad>a>p{
+    text-align: center;
+    font-size: 12px;
+  }
+  main>div.shegeftangizha>div.first>div.pishnahad>div.shegeft-pishnahad>a>p>img{
+    margin-bottom: 0;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-right: 35px;
+
+
+  }
+ 
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a{
+    height: inherit;
+    display: block;
+    font-family:'iran-sans';
+    text-align: right;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* color: rgb(239,59,81); */
+    line-height: 60px;
+    font-size: 12px;
+    font-weight: bold; 
+  }
+  
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a>div.first::after{
+    content: attr(data-discount);
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: bold;
+    font-family:'iran-sans';
+    line-height: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a>div.first>img{
+    position: relative;
+    top: 30px;
+
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a>div.first>p{
+    /* width: 100px; */
+    height: 30px;
+    color: black;
+    padding: 5px;
+    line-height: 30px;
+    font-size: 12px;
+    position: absolute;
+    left: 5px;
+    bottom: 50px;
+    font-family:'iran-sans';
+    font-weight: bold;
+  }
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a>div.first>h3{
+   
+    height: 30px;
+    color: rgb(239,59,81);
+    padding: 5px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: right;
+    font-family:'iran-sans';
+    font-weight: bold;
+    /* background-color: #007aff; */
+    position: absolute;
+    right: 0;
+
+  }
+  main>div.shegeftangizha>div.first>div.pishnahad>div.pishnahad>div.swiper-wrapper>div.swiper-slide>a>div.first>h4{
+   align-items: right;
+    height: 30px;
+    color: black;
+    padding: 5px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: right;
+    font-family:'iran-sans';
+    font-weight: bold;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0;
+    
+  }
+  div.fasele{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 300px;
+    background-color: blue;
+  }
+
+  div.shegeft-super-shegeft{
+        background: url('../image/freshPattern.svg') no-repeat , linear-gradient(rgb(239,241,232), rgb(235,240,237));
+        width: 100%;
+        height: 100px;
+        position: relative;
+        top: 230px;
+        padding: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    div.shegeft-super-shegeft>div.right{
+        height: 100px;
+        margin-right: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        /* background-color: blue; */
+    }
+    div.shegeft-super-shegeft>div.right>div.pic-super{
+        margin-left: 20px;
+        height: 62px;
+        display: inline-block;
+        position: relative;
+        top: 20px; 
+    }
+    div.shegeft-super-shegeft>div.right>div.takhfif{
+        width: 110px;
+        height: 30px;
+        position: relative;
+        left: 0;
+        top:0;
+        background-color: rgb(57, 174, 0);
+        display: inline-block;
+        margin-right: 10px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    div.shegeft-super-shegeft>div.right>div.takhfif>a{
+        width: 110px;
+        height: 30px;
+        border-radius: 30px;
+        display: inline-block;
+        font-family:'iran-sans';
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        background-color: rgb(57, 174, 0);
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    div.shegeft-super-shegeft>div.left{
+        height: 60px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        padding-left: 50px;
+    }
+    div.shegeft-super-shegeft>div.left>a{
+        height: 50px;
+        line-height: 50px;
+    }
+    div.shegeft-super-shegeft>div.left>div{
+        border-radius: 50% ;
+        display: inline-block;
+        position: relative;
+        top: calc(100% - 90px / 2);
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+        text-align: center;
+        background-color: white;
+        -webkit-border-radius: 50% ;
+        -moz-border-radius: 50% ;
+        -ms-border-radius: 50% ;
+        -o-border-radius: 50% ;
+}
+    div.shegeft-super-shegeft>div.left>div::after{
+        content: attr(data-discount);
+        display: inline-block;
+        width: 30px;
+        height: 20px;
+        background-color: red;
+        color: whitesmoke;
+        border-radius: 50%;
+        padding: 5px;
+        line-height: 20px;
+        position: absolute;
+        right: -15px;
+        bottom: -2px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family:'iran-sans' ;
+       
+    }
+    div.shegeft-super-shegeft>div.left>div>img{
+        width: 58px;
+        height: 58px;
+        border-radius: 50% ;
+        -webkit-border-radius: 50% ;
+        -moz-border-radius: 50% ;
+        -ms-border-radius: 50% ;
+        -o-border-radius: 50% ;
+}
+    
+    div.shegeft-super-shegeft>div.left>a>h3{
+        width: 150px;
+        display: inline-block;
+        font-family:'iran-sans';
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: rgb(57, 174, 0);
+        line-height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+div.paragraf{
+  position: relative;
+  top: 100px;
+  width: 400px;
+  height: 30px;
+  text-align: right;
+  margin-top: 10px;
+}
+div.paragraf>p{
+  font-family:'iran-sans';
+  text-align: right;
+  text-transform: capitalize;
+  color: black;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+    div.sefaresh{
+      position: relative;
+      top: 150px;
+      width: 100%;
+      height: 1550px;
+      /* height: 1540px; */
+      /* background-color: blue; */
+      text-align: center;
+      /* z-index: 20; */
+   
+    }
+    div.sefaresh>a{
+      text-decoration: none;
+      color: black;
+      
+    }
+    div.sefaresh>a>div.kala{
+      width: calc(100% / 5);
+      height: 512px;
+      display: inline-block;
+      position: relative;
+      border: 1px solid rgb(239,241,232);
+      top: 0;
+      transition: 500ms;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      -ms-transition: 500ms;
+      -o-transition: 500ms;
+      margin: 0;
+}
+/* div.sefaresh>div.buy-kala{
+  position: absolute;
+  width: calc(100% / 5);
+  height: 512px;
+
+} */
+    div.sefaresh>a>div.kala:hover{
+      box-shadow: 5px 5px 5px rgb(239,241,232);
+      transition: 300ms;
+      -webkit-transition: 300ms;
+      -moz-transition: 300ms;
+      -ms-transition: 300ms;
+      -o-transition: 300ms;
+}
+
+
+    div.sefaresh>a>div.kala::after{
+      content: attr(data-discount);
+      display: inline-block;
+      width: 30px;
+      height: 20px;
+      background-color: red;
+      color: whitesmoke;
+      border-radius: 50%;
+      padding: 5px;
+      font-weight: bold;
+      font-family:'iran-sans';
+      line-height: 20px;
+      position: absolute;
+      right: 5px;
+      bottom: 50px;
+      font-size: 12px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+    
+  div.sefaresh>a>div.kala>img{
+      position: relative;
+      top: 30px;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+    
+    div.sefaresh>a>div.kala>p{
+      /* width: 100px; */
+      height: 30px;
+      color: black;
+      padding: 5px;
+      line-height: 30px;
+      font-size: 12px;
+      position: absolute;
+      left: 5px;
+      bottom: 50px;
+      font-family:'iran-sans';
+      font-weight: bold;
+    }
+    div.sefaresh>a>div.kala>h3{
+     
+      height: 30px;
+      color: rgb(239,59,81);
+      padding: 5px;
+      line-height: 30px;
+      font-size: 14px;
+      text-align: right;
+      font-family:'iran-sans';
+      font-weight: bold;
+      /* background-color: #007aff; */
+      position: absolute;
+      right: 0;
+  
+    }
+    div.sefaresh>a>div.kala>h4{
+     align-items: right;
+      height: 30px;
+      color: black;
+      padding: 5px;
+      line-height: 30px;
+      font-size: 10px;
+      text-align: right;
+      font-family:'iran-sans';
+      font-weight: bold;
+      /* background-color: blue; */
+      position: absolute;
+      right: 0;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      
+    }
+    div.sefaresh>a>div.kala>h5{
+      align-items: right;
+       height: 30px;
+       color: black;
+       padding: 5px;
+       line-height: 30px;
+       font-size: 10px;
+       text-align: right;
+       font-family:'iran-sans';
+       font-weight: bold;
+       /* background-color: blue; */
+       margin-top: 50px;
+       position: absolute;
+       right: 0;
+       top: 260px;
+       margin-bottom: 5px;
+       
+     }
+     div.sefaresh>a>div.kala>div.right{
+      position: relative;
+      right: 0;
+      width: 170px;
+      height: 30px;
+      /* background-color: green; */
+      display: inline-block;
+      top: 70px;
+      text-align: right;
+      padding: 5px;
+      
+      line-height: 30px;
+
+
+     }
+     div.sefaresh>a>div.kala>div.right>p{
+      height: 30px;
+      /* color: black; */
+      padding: 5px;
+      line-height: 30px;
+      font-size: 10px;
+      font-family:'iran-sans';
+     }
+     
+     div.sefaresh>a>div.kala>div.right>p>span{
+      color: green;
+      font-size: 15px;
+     }
+     div.sefaresh>a>div.kala>div.left{
+      position: relative;
+      left: 0;
+      width: 70px;
+      height: 30px;
+      /* background-color: yellow; */
+      display: inline-block;
+      top: 70px;
+      text-align: left;
+      padding: 5px;
+
+      line-height: 30px;
+
+     }
+     div.sefaresh>a>div.kala>div.left>p{
+      height: 30px;
+      color: black;
+      padding: 5px;
+      line-height: 30px;
+      font-size: 10px;
+      font-family:'iran-sans';
+     }
+          
+     div.sefaresh>a>div.kala>div.left>p>span{
+      color: #f9bc00;
+      font-size: 15px;
+     }
+     
+
+   
+    
+
+
+

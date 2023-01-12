@@ -3,14 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-div.icondigi>div.digiclub{
+div.digiclub{
     width: 100%;
     height: 300px;
     display: block;
+    position: relative;
+    top:300px;
+    text-align: center;
 }
-div.icondigi>div.digiclub>img{
+div.digiclub>img{
     margin: 5px;
     padding: 5px;
+    text-align: center;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -19,7 +23,16 @@ div.icondigi>div.digiclub>img{
     width: 314px;
     height: 235.5px;
 }
-div.icondigi>div.daste>h3{
+div.daste{
+    position: relative;
+    top: 300px;
+    /* left: calc(100% - 400px / 2); */
+    /* width: 400px; */
+    /* text-align: center;
+    align-items: center; */
+
+}
+div.daste>h3{
     font-family:'iran-sans';
     text-align: center;
     text-transform: capitalize;
@@ -29,17 +42,26 @@ div.icondigi>div.daste>h3{
     font-size: 20px;
     
 }
-div.icondigi>div.kala{
+div.kala{
     width: 100%;
     height: auto;
     margin-bottom: 40px;
     /* background-color: blueviolet; */
+    position: relative;
+    top: 300px;
 }
-div.icondigi>div.kala>a{
+div.kala>div{
+    position: relative;
+    margin: 50px auto;
+    /* background-color: red; */
+    align-items: center;
+    text-align: center;
+}
+div.kala>div>a{
     display: inline-block;
     width: 170px;
     height: 170px;
-    margin: 10px;
+    margin: 10px auto;
     font-family:'iran-sans';
     text-align: center;
     text-decoration: none;
@@ -49,24 +71,806 @@ div.icondigi>div.kala>a{
     
     font-size: 12px;
     font-weight: bold;
+    /* position: absolute;
+    left: calc(50% - 170px /2); */
+    margin: 20px;
 
 }
-div.icondigi>div.kala>a>img{
+div.kala>div>a>img{
     display: inline-block;
     width: 170px;
     height: 170px;
 }
-div.icondigi>div.pic-takhfif{
+div.pic-takhfif{
     width: 100%;
     height: 300px;
     margin: 5px;
     padding: 5px;
+    position: relative;
+    top: 300px;
+    text-align: center;
 
 }
-div.icondigi>div.pic-takhfif>img{
+div.pic-takhfif>img{
     width: 644px;
     height: 257px;
     margin: 5px;
     border-radius: 15px;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
+
+div.shegeft-super{
+background: url('../image/freshPattern.svg') no-repeat , linear-gradient(rgb(239,241,232), rgb(235,240,237));
+
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.shegeft-super>div.right{
+    height: 100px;
+    margin-right: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* background-color: blue; */
+}
+div.shegeft-super>div.right>div.pic-super{
+    margin-left: 20px;
+    height: 62px;
+    display: inline-block;
+    position: relative;
+    top: 20px; 
+}
+div.shegeft-super>div.right>div.takhfif{
+    width: 110px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    top:0;
+    background-color: rgb(57, 174, 0);
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+div.shegeft-super>div.right>div.takhfif>a{
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(57, 174, 0);
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+div.shegeft-super>div.left{
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-left: 50px;
+}
+div.shegeft-super>div.left>a{
+    height: 50px;
+    line-height: 50px;
+}
+div.shegeft-super>div.left>div{
+    border-radius: 50% ;
+    display: inline-block;
+    position: relative;
+    top: calc(100% - 90px / 2);
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: white;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+}
+div.shegeft-super>div.left>div::after{
+    content: attr(data-discount);
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 5px;
+    line-height: 20px;
+    position: absolute;
+    right: -15px;
+    bottom: -2px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:'iran-sans' ;
+   
+}
+div.shegeft-super>div.left>div>img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+}
+
+div.shegeft-super>div.left>a>h3{
+    width: 150px;
+    display: inline-block;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(57, 174, 0);
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+main>div.digi-pishnahad{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+
+
+main>div.digi-pishnahad>table>caption{
+  
+    height: 50px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+
+main>div.digi-pishnahad>table{
+    border-collapse: collapse;
+    border: 1px solid rgb(241, 242, 244);
+    font-family:'iran-sans';
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main>div.digi-pishnahad>tr , td {
+    border: 1px solid rgb(241, 242, 244);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    /*height: 300px;
+    *//*width: 100px;
+    */-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+div.test-table {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    line-height: 90px;
+    padding: 10px;
+    border-radius: 50% ;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 242, 244);
+  
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+}
+img.test-image{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    /* position: absolute;
+    top: calc(90px - 60px / 2);
+    left: calc(90px - 60px / 2); */
+
+
+}
+a.test-link{
+    
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    
+    font-size: 12px;
+    background-color: white;
+    vertical-align: middle;
+
+}
+
+
+
+ /* tr:first-child {
+    border-style:solid;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ } */
+/*  
+ tr:last-child {
+    border-style:solid;
+    border-bottom-right-radius:1px;
+     border-top-right-radius:11px; 
+ } */
+
+
+
+
+
+
+
+ div.kala-digital{
+    position: relative;
+    top: 320px;
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    border: 1px solid rgb(241, 242, 244);
+    border-radius: 20px;
+
+}
+div.kala-digital:first-of-type{
+    
+    border-right: 0 ;
+}
+
+div.kala-digital>div.gushi-digi{
+    width: 24.7%;
+    height: 100%;
+    position: relative;
+    /* background-color: aqua; */
+    border-right: 1px solid rgb(241, 242, 244);
+    display: inline-block;
+}
+div.kala-digital:first-of-type(1){
+    
+    border-right: none ;
+}
+div.kala-digital>div.gushi-digi:first-of-type{
+    border-right: none ;}
+
+div.kala-digital>div.gushi-digi>div.header-gushi{
+
+    width: 100%;
+    height:15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: brown; */
+    padding-right: 10px;
+}
+
+
+div.kala-digital>div.gushi-digi>div.header-gushi>h2{
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+div.kala-digital>div.gushi-digi>div.header-gushi>h3{
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    
+    
+}
+
+div.kala-digital>div.gushi-digi>div.pic-gushi{
+    width: 90%;
+    height: 70% ;
+    position: relative;
+    /* background-color: blue; */
+    margin-right: 10px;
+    margin-left: 10px;
+    top:60px ;
+
+
+}
+
+
+
+div.kala-digital>div.gushi-digi>div.pic-gushi>div.pic-first{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: coral; */
+    border-left: 1px solid rgb(241, 242, 244);
+    border-bottom: 1px solid rgb(241, 242, 244);
+    
+
+
+}
+
+div.kala-digital>div.gushi-digi>div.pic-gushi>div.pic-second{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: darkolivegreen; */
+    border-bottom: 1px solid rgb(241, 242, 244);
+
+
+}
+
+div.kala-digital>div.gushi-digi>div.pic-gushi>div.pic-thired{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    /* background-color: rgb(218, 14, 157); */
+    display: inline-block;
+    border-left: 1px solid rgb(241, 242, 244);
+}
+
+div.kala-digital>div.gushi-digi>div.pic-gushi>div.pic-four{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* background-color: rgb(28, 14, 218); */
+    display: inline-block;
+}
+div.kala-digital>div.gushi-digi>.footer-gushi{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background-color: brown; */
+    padding-right: 10px;
+}
+div.kala-digital>div.gushi-digi>.footer-gushi>a{
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    align-items: center;
+
+}
+
+div.kala-digital>div.gushi-digi>.footer-gushi>a>h2{
+    text-align: center;
+    font-size: 12px;
+}
+
+div.digiplus{
+    position: relative;
+    top: 320px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(148,27,128);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-top: 20px;
+}
+div.digiplus>div.right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 30px;
+    width: 400px;
+    height: 400px;
+    background-image: url('../image/plus-widget.png') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+div.digiplus>div.right>img{
+margin-top: 20px;
+}
+div.digiplus>div.right>h3{
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: right;
+    text-transform: capitalize;
+    color: white;
+    line-height: 30px;
+    font-size: 12px;
+}
+div.digiplus>div.right>div{
+    position: relative;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+div.digiplus>div.right>div>a{
+    width: 100px;
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+div.digiplus>div.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    /* width: 800px; */
+    height: 360px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+div.digiplus>div.left>div.first{
+    /* position: relative;
+    top: 0; */
+    height: 100px;
+    padding: 10px;
+}
+div.digiplus>div.left>div.first>h3{
+    position: absolute;
+    right: 0;
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    margin-right: 20px;
+
+}
+div.digiplus>div.left>div.first>h3>span{
+    font-size: 12px;
+    color: rgb(148,27,128);
+}
+div.digiplus>div.left>div.first>a{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    /* width: 100px; */
+    height: 30px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(148,27,128);
+    line-height: 30px;
+    font-size: 12px;
+    align-items: center;
+
+}
+div.digiplus>div.left>div.second{
+    text-align: center;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+}
+div.digiplus>div.left>div.second>a{
+    margin:5px;
+    text-decoration: none;
+    
+
+}
+div.digiplus>div.left>div.second>a>img{
+    width: 112px;
+    height: 112px;
+
+}
+div.digiclub-footer{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   top: 320px;
+   margin-top: 20px;
+   /*background-color: rgb(0, 144, 149);
+   */background:  linear-gradient(90deg, rgba(53,166,200) 0%, rgba(0,144,149,1) 67%);
+   border-radius:30px ;
+   -webkit-border-radius:30px ;
+   -moz-border-radius:30px ;
+   -ms-border-radius:30px ;
+   -o-border-radius:30px ;
+}
+div.digiclub-footer>div.right{
+position: absolute;
+right: 0;
+top: 33.5px;
+/* top: calc(100% - 33px / 2); */
+width: 119px;
+height: 33px;
+
+}
+div.digiclub-footer>div.right>img{
+    width: 119px;
+    height: 33px;
+    margin-right: 20px;
+}
+
+div.digiclub-footer>div.left{
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 64px;
+
+}
+div.digiclub-footer>div.left>div.first{
+    background-color: white;
+    background-image: url('../image/digiclub/awards.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: inherit;
+    width: 275px;
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    /* padding: 10px; */
+}
+div.digiclub-footer>div.left>div.first>div>h3{
+    /* position: absolute;
+    right: 0; */
+    /* top: calc(100% - 30px /2); */
+    height: 30px;
+    font-family:'iran-sans';
+    display: inline-block;
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    /* margin-right: 10px; */
+    
+}
+
+div.digiclub-footer>div.left>div.first>div{
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    vertical-align: top;
+}
+
+div.digiclub-footer>div.left>div.first>div.svg-digiplus{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+    vertical-align: top;
+}
+
+
+div.digiclub-footer>div.left>div.second{
+    background-color: white;
+    background-image: url('../image/digiclub/missions.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    /* background-size: scale(1,1); */
+    /* border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; */
+    height: inherit;
+    width: 275px;
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 20px;
+    /* margin-left: 5px; */
+    /* padding: 10px; */
+}
+div.digiclub-footer>div.left>div.second>div>h3{
+    /* position: absolute;
+    right: 30px;
+    top: calc(100% - 30px /2); */
+    height: 30px;
+    font-family:'iran-sans';
+    display: inline-block;
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    /* background-color: blue; */
+    /* margin-right: 10px; */
+    /* vertical-align: top; */
+    
+}
+
+div.digiclub-footer>div.left>div.second>div{
+    height: 30px;
+    /* width: 150px; */
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    vertical-align: top;
+}
+
+div.digiclub-footer>div.left>div.second>div.svg-digiplus{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+    /* margin-top: 10px; */
+}
+
+div.digiclub-footer>div.left>div.thierd{
+    background-color: white;
+    background-image: url('../image/digiclub/wheel-spinner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: inherit;
+    width: 275px;
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 20px;
+    /*margin-left: 10px;
+    *//*padding: 10px;
+    */
+}
+div.digiclub-footer>div.left>div.thierd>div>h3{
+    /* position: absolute;
+    right: 30px;
+    top: calc(100% - 30px /2); */
+    height: 30px;
+    font-family:'iran-sans';
+    display: inline-block;
+    text-align: right;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    font-size: 12px;
+    /* background-color: blue; */
+    /* margin-right: 10px; */
+    /* vertical-align: top; */
+    
+}
+
+div.digiclub-footer>div.left>div.thierd>div{
+    height: 30px;
+    /* width: 150px; */
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    vertical-align: top;
+}
+
+div.digiclub-footer>div.left>div.thierd>div.svg-digiplus{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 30px /2) ;
+    /* background-color: blueviolet; */
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+    /* margin-top: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

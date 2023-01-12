@@ -11,11 +11,14 @@ div.icondigi{
     width:100% ;
     height: 100px;
     text-align: center;
+    position: relative;
+    top: 150px;
 }
 div.icondigi>figure{
     display: inline-block;
     text-align: center;
     padding: 40px;
+
 
 
 }
@@ -66,7 +69,7 @@ div.icondigi>figure>div.plus>label{
     width: 50px;
     height: 50px;
     font-size: 20px;
-    color:  rgb(161, 163, 168);;
+    color:  rgb(161, 163, 168);
     cursor: pointer;
     border-radius: 50%;
     position: absolute;
