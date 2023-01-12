@@ -531,12 +531,11 @@ div.paragraf>p{
 
 } */
     div.sefaresh>a>div.kala:hover{
-      box-shadow: 5px 5px 5px rgb(239,241,232);
+      box-shadow: 5px 5px 5px rgb(75, 75, 72);
+      /* box-shadow: 5px 5px 5px rgb(red, green, blue); */
+      border: 1px solid rgb(97, 97, 91);
       transition: 300ms;
-      -webkit-transition: 300ms;
-      -moz-transition: 300ms;
-      -ms-transition: 300ms;
-      -o-transition: 300ms;
+
 }
 
 
